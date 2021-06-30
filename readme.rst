@@ -1,6 +1,8 @@
 *************************
-Studi System ERP
+Studi Kasus System ERP
 *************************
+Visit Demo at https://literasistore.000webhostapp.com/
+
 
 ###################
 What is CodeIgniter
