@@ -48,12 +48,12 @@
   </head>
   <body>
     
-    <header class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-0 shadow shadow-xl">
-      <a class="navbar-brand col-sm-6 col-md-3 col-lg-2 me-0 fw-bold text-center px-3" href="<?= site_url("dashboard"); ?>">Literasi Store</a>
-      <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon py-1"></span>
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap py-2 shadow shadow-xl">
+      <a class="navbar-brand col-sm-6 col-md-3 col-lg-2 me-0 fw-bold text-center p-2" href="<?= site_url("dashboard"); ?>">Literasi Store</a>
+      <button class="navbar-toggler position-absolute d-md-none collapsed p-1 mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text px-1"></span>
       </button>
-      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      <input class="form-control form-control-dark w-100 rounded-pill" type="text" placeholder="Search" aria-label="Search">
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
           <a class="nav-link signout" href="#">Sign Out</a>
