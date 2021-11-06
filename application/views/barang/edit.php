@@ -20,6 +20,7 @@
         <button type="button" class="btn btn-primary" name="btnSave" id="btnSave" onclick="update()" >Simpan</button>
     </div>
 </form>
+
 <script type="text/javascript">
 
 	$("input").change(function(){
